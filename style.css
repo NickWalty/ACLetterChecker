@@ -1,0 +1,106 @@
+@font-face {
+	font-family: finkHeavy;
+	src: url(FinkHeavy.ttf);
+}
+
+body {
+	background-image: url("images/acgrass.jpg");
+}
+
+#title h1{
+	font-size: 4em;
+	font-family: finkHeavy;
+	padding-top: 10px;
+	color: #E3AA1D;
+	text-shadow: 2px 2px #724820;
+}
+
+#title h3{
+	font-size: 2em;
+	font-family: finkHeavy;
+	color: #E3AA1D;
+	text-shadow: 2px 2px #724820;
+}
+#title h4{
+	font-size: 1.5em;
+	font-family: 'Varela Round', sans-serif;
+	color: #E3AA1D;
+	text-shadow: 2px 2px #724820;
+}
+
+.form-group {
+	align-self: center;
+}
+
+#letter {
+	font-family: 'Varela Round', sans-serif;
+	width:100%;
+	background-image: url("images/letterbg.jpg");
+	color:black;
+	resize: none;
+	font-size: 33px;
+	padding: 10px 15px 10px 10px;
+	border: 10px solid white;
+	border-radius: 5px;
+
+}
+
+.bottomBar {display:inline; padding-top: 0px;}
+
+.btn { 
+	font-family: finkHeavy;
+	font-size: 2em;
+	background: #E3AA1D;
+	color: #724820;
+	border-radius: 10px;
+	border: 0px solid #E3AA1D;
+	padding: 0px 25px 0px 25px;
+	height: 50px;
+ }
+
+ .btn:hover { 
+	font-family: finkHeavy;
+	font-size: 2em;
+	background: #724820;
+	color: white;
+	border-radius: 10px;
+	border: 0px solid #E3AA1D;
+	padding: 0px 25px 0px 25px;
+	height: 50px;
+ }
+
+ #charCount{
+ 	padding-top: 10px;
+	font-size: 1.5em;
+	font-family: finkHeavy;
+	color: #E3AA1D;
+	text-shadow: 2px 2px #724820;
+}
+
+#message {
+	padding-top: 10px;
+}
+
+#output {
+	font-family: 'Varela Round', sans-serif;
+	background: white;
+	border-radius: 20px;
+	padding: 10px 10px 10px 10px;
+	margin-top:auto;
+	
+}
+
+#output a{ color:#724820; }
+#output a:hover{ color:#E3AA1D; text-decoration: none;}
+
+.pete {
+	padding-left: 0px;
+	position: relative;
+	left: -20px;
+}
+
+.pete img{
+	max-width: 100%;
+	height:auto;
+	margin:auto;
+}
