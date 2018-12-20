@@ -169,7 +169,7 @@ function checkLetter(inputString) {
 	//If letter is more than 75 character long without punctuation
 	//Deduct 150 points
 
-	if(inputString.length > 75 && !/[!?,;:]/g.test(inputString)) {
+	if(inputString.length > 75 && !/[!?,;:.]/g.test(inputString)) {
 		msgF = "There's not enough punctuation in this letter! That knocks off 150 points! ";
 		points -=150;
 	}
